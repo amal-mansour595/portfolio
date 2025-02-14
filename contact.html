@@ -5,93 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>my portfolio</title>
     <link rel="icon" href="icons/pficon.ico">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body >
+<header></header>
+<body>
+    <!--navbar-->
+    <nav>
+        <img src="icons/amalicon.png" >
+       <ul>
+       <a href="index.html" id="active"> <li> Home </li></a>
+       <a href="portfolio.html"><li>Blogs</li></a>
+       <a href="contact.html"><li>Contact</li></a>
+       </ul>
+        </nav>
+<section class="form">
+    <div>
     
-    <nav >
-        <table width="100%" height="50"  bgcolor="#663399" > 
-            <tr>
-                <td width="50%"><a href="index.html" ><font color="white" ><b>𝓗𝓸𝓶𝓮</b></font></a>
-                    &nbsp;&nbsp;&nbsp;
-                    <a href="about.html" ><font color="white" ><b>𝓐𝓫𝓸𝓾𝓽</b></font></a> 
-                    &nbsp;&nbsp;&nbsp;
-                    <a href="portfolio.html" ><font color="white" ><b>𝓑𝓵𝓸𝓰𝓼</b></font>
-                    </a>
-                    &nbsp;&nbsp;&nbsp;
-                    <a href="contact.html" ><font color="white" ><b>𝓒𝓸𝓷𝓽𝓪𝓬𝓽</b></font></a></td>
-                <td width="25%" align="center">
-                    
-                </td>
-                <td width="25%" align="center">
-                    <a href="https://fr.linkedin.com/">
-                        <img src="icons/linkedin.ico"></a>
-                        &nbsp;&nbsp;
-                        <a href="https://github.com/">
-                        <img src="icons/github.ico"></a>
-                        &nbsp;&nbsp;
-                        <a href="https://workspace.google.com/intl/fr/gmail/">
-                        <img src="icons/gmail.ico"></a>
-            </tr>
-        </table>
-    </nav>
-    <section>
-        <table  width="100%" height="50">
-            <tr>
-            </tr>
-        </table>
-        <table  width="100%" height="500">
-            <tr>
-                <td width="50%" >
-                    <center>
-                        <img src="icons/giphy.gif">
-                    </center>
-                </td>
-                <td width="50%" >
-                    <center>
-                        <h1><b><i><u> Contact Me</u></i></b></h1>
-                    <form >
+    <img src="icons/giphy.gif">
+    
+</div>
+<div class="con">
+    <h1>Contact me</h1>
+        <form >
                         
-                        <input type="text" name="nom" placeholder="nom" size="50"><br>
-                
-                        <br>
-                        <input type="email" name="email" placeholder="E-mail" size="50"><br>
-                
-                        <br>
-                        <textarea name="message" rows="10" cols="50" placeholder="Message"></textarea><br><br>
-                
-                        <input type="submit" value="Send message">
-                    </form>
-                </center>
-                </td>
-                
+            <input type="text" name="nom" placeholder="nom" size="50"><br>
     
-            </tr>
-            
-        </table>
-    </section>
-    <footer  >
-        <table border="2" width="100%" height="50" bgcolor="#663399" >
-            <tr>
-                <td width="30%"><img src="icons/caretsymbol_120671.ico"></td>
-                <td width="40%">
-    <center>
-        <a href="https://www.instagram.com/">
-        <img src="icons/instagram.ico"></a>
-        &nbsp;&nbsp;
-        <a href="https://www.facebook.com/">
-        <img src="icons/facebook.ico"></a>
-        &nbsp;&nbsp;
-        <a href="https://web.whatsapp.com/">
-        <img src="icons/whatsapp.ico"></a>
+            <br>
+            <input type="email" name="email" placeholder="E-mail" size="50"><br>
     
-    </center>
-                </td>
-                
-                <td width="30%"><i><font color="white" size="4"><center>+21692498366</center></font></i></td>
-            
-            </tr>
-        </table>
-    </footer>
+            <br>
+            <textarea name="message" rows="10" cols="50" placeholder="Message"></textarea><br><br>
+    
+            <button id="submit">Send message</button>
+        </form>
+
+    </div>
+</section>     
     
 </body>
+<footer>
+    <div class="footer-section contact">
+        <h2>Contact</h2>
+        <p>📧 amal.mansour@email.com</p>
+        <p>📞 +216 12 345 678</p>
+    </div>
+<div class="footer-bottom">
+    <p>&copy; 2025 Mansour Amal. Tous droits réservés.</p>
+</div>
+</div>
+</footer>
 </html>
